@@ -47,6 +47,10 @@ main{
     padding: 16px;
 }
 
+.sidebar a:hover{
+        color: lightcoral;
+}
+
 .sidebar .container ul{
     display: flex;
     flex-direction: column;
