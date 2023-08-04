@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* grey */
+    color: #333; 
+    /* light-blue */
+    background: #a1c3ff;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    /* thora sa dark light blue */
+    background: #3474e6;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar .logo{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: lightblue;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header{
+    color: #fff;
+    /* dark-blue */
+    background-color: #0151cc;
+    min-height: 400px;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img{
+    max-width: 400px
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container{
+    display: flex;
+}
+
+.box{
+    background: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box i{
+    margin-right: 10px;
+}
+
+@media (max-width:769px) {
+   .header .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+   }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+   }
+}
+
+@media(max-width: 400px){
+    .header img{
+        max-width: 75%;
+    }
+}
