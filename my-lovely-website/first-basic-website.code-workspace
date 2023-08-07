@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "first-basic-website",
+			"path": ".."
+		},
+		{
+			"name": "my-lovely-website",
+			"path": "../../../../vsCode/flexbox-demo/my-lovely-website"
+		}
+	],
+	"settings": {}
+}
