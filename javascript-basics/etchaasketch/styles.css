@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    background-color: #040707;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2em;
+}
+
+.header{
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 1em ;
+    color: #ccc;
+   
+}
+
+.header h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: #ccc 2px solid;
+}
+
+.grid-wrapper{
+    width:660px;
+    height: 660px;
+    border-radius: 4px;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 256px; 
+    height: 256px;  */
+    width:600px;
+    height:600px;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.2rem;
+}
+.wrapper{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5em;
+    margin-bottom: 2em;
+}
+
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 4px;
+    width: 300px;
+    height: 500px;
+    padding: 2em;
+    color: #f0f0f0;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 2em;
+}
+
+.color-picker{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.color-picker input[type="color"]{
+    border: none;
+    /* border: 1px solid rgb(231, 237, 243);  */
+    background-color: rgba(0,0,0,0);
+    border-radius: 2px;
+    width: 70px;
+    height: 50px;
+}
+
+.color-picker span{
+    margin: 0 auto;
+}
+
+
+.btn-container button{
+    display: block;
+    color: rgb(223, 229, 235);
+    font-weight: bold;
+    font-family: roboto;
+    background-color: rgba(0,0,0,0);
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(223, 229, 235);
+    border-radius: 2px;
+    padding: 9px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+.btn-container button:hover{
+   background-color: rgb(223, 229, 235);
+   color:black;
+}

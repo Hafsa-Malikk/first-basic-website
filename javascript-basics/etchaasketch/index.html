@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grid of Squares</title>
+</head>
+<body>
+    <div class="main-container">
+      <div class="header">
+        <header>
+          <h1>Etch-A-Sketch Game</h1>
+        </header>
+      </div>
+      <div class="wrapper">
+        <div class="btn-container">
+          <div class="color-picker">
+            <input type="color" id="colorPicker-pen" value="#000000"><span>Pen Color</span>
+          </div>
+          <div class="color-picker">
+            <input type="color" id="colorPicker-bg" value="#f0f0f0"><span>Background Color</span>
+          </div>
+          <button id="rainbow">Rainbow Color</button>
+          <button id="clear">Clear</button>
+          <button id="eraser">Eraser</button>
+          <button id="resetBtn">Reset Grid</button>
+      </div>
+      <div class="grid-wrapper">
+        <div class="container"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
